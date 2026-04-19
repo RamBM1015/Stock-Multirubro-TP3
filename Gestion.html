@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Inventario</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Productos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="ventas.html">Ventas</a>
+    </nav>
+  </header>
+
+  <!-- Formulario de gestión -->
+  <section>
+    <h2>Agregar / Editar Producto</h2>
+    <form>
+      <label>Nombre: <input type="text" name="nombre"></label><br>
+      <label>Rubro:
+        <select name="rubro">
+          <option>Kiosco</option>
+          <option>Librería</option>
+          <option>Regalería</option>
+        </select>
+      </label><br>
+      <label>Precio: <input type="number" name="precio"></label><br>
+      <label>Stock: <input type="number" name="stock"></label><br>
+      <button type="submit">Guardar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Gestión de Stock - Comercio Multirubro</p>
+  </footer>
+</body>
+</html>
